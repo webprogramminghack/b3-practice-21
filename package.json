@@ -2,7 +2,7 @@
   "name": "create-tailwind-app",
   "version": "1.0.1",
   "description": "Build the HTML template with tailwind css.",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "start": "live-server ./public ",
     "build": "postcss css/main.css -o public/assets/css/build/tailwind.css --minify",
@@ -11,8 +11,8 @@
   },
   "keywords": [
     "HTML template",
-    " tailwindcss",
-    " tailwind",
+    "tailwindcss",
+    "tailwind",
     "HTML",
     " css framework"
   ],
