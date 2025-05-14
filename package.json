@@ -19,7 +19,7 @@
   "author": "Rajdeep Singh",
   "license": "MIT",
   "devDependencies": {
-    "autoprefixer": "^10.4.7",
+    "autoprefixer": "^10.4.21",
     "cssnano": "^5.1.9",
     "live-server": "^1.2.2",
     "postcss": "^8.4.14",
