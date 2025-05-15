@@ -64,12 +64,20 @@
             <b>Rumah Impian</b> hadir untuk temukan rumah terbaik untukmu, untuk
             di jual ataupun di sewa dengan sumber terpercaya.
           </p>
-          <button class="w-[237px] h-[70px] uppercase bg-white text-[#048853]">
-            <b>Temukan Rumah</b>
-          </button>
+          <div class="flex items-center">
+            <button
+              class="w-[237px] h-[70px] bg-white uppercase rounded-md text-[#048853]"
+            >
+              <b>Temukan Rumah</b>
+            </button>
+            <button class="w-[44px] h-[44px] gap-3">
+              <img src="./Assets/images/icon-arrow-right.png" alt="arrow" />
+            </button>
+          </div>
         </div>
       </div>
     </section>
+
     <!-- services section -->
     <section class="relative bg-[#F3FFF4]">
       <p class="text-center pt-[109px] text-[48px] text-[#048853]">
@@ -129,6 +137,7 @@
         </div>
       </div>
     </section>
+
     <!-- find section -->
     <section
       class="h-[729px] bg-[url('/assets/images/find-background.png')] bg-cover bg-center w-full text-white"
@@ -175,13 +184,526 @@
               </select>
               <input
                 type="text"
-                class="h-[88px] w-[460px] text-[#048853] pl-10 bg-transparent"
+                class="h-[88px] w-[460px] text-[#048853] pl-10 bg-transparent placeholder-[#048853]"
                 name="input"
                 id="input"
                 placeholder="cari berdasarkam lokasi, ID, Property"
               />
             </div>
             <button class="bg-[#048853] w-[135px] h-[88px]">Cari</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- recommend section -->
+    <section class="pt-[104px] px-[93px] min-h-screen">
+      <p class="text-[48px] text-[#048853] text-center font-medium pb-[44px]">
+        Rekomendasi Rumah Untuk Mu
+      </p>
+      <!-- cards container -->
+      <div class="flex justify-center gap-7 p-2">
+        <!-- card -->
+        <div class="w-[363px] bg-white rounded-md p-2">
+          <img
+            src="./assets/images/recommendation-house-1.png"
+            alt="house1"
+            class="h-[280px]"
+          />
+          <!-- wrapper description -->
+          <div class="p-4">
+            <!-- title -->
+            <div>
+              <p class="text-[24px] font-medium">IDR.200.000.000</p>
+              <p class="text-[14px]">Jl. Soekarno Hatta No.1</p>
+              <p class="text-[14px] text-[#FF0000]">Sewa</p>
+            </div>
+            <!-- specs -->
+            <div class="flex justify-between items-center mt-8 mb-9">
+              <!-- room -->
+              <div>
+                <div class="flex justify-start items-center gap-2">
+                  <img src="./assets/images/icon-bed.png" alt="bed" />
+                  <p class="text-[14px] font-medium">3</p>
+                </div>
+                <p class-="text-[12px]">Kamar Tidur</p>
+              </div>
+              <!-- bathroom -->
+              <div>
+                <div class="flex justify-start items-center gap-2">
+                  <img
+                    src="./assets/images/icon-bath.png"
+                    alt="bed"
+                    class="w-[25px]"
+                  />
+                  <p class="text-[14px] font-medium">4</p>
+                </div>
+                <p class-="text-[12px]">Kamar Mandi</p>
+              </div>
+              <!-- area -->
+              <div>
+                <div class="flex justify-start items-center gap-2">
+                  <img src="./assets/images/icon-land.png" alt="bed" />
+                  <p class="text-[14px] font-medium">360m</p>
+                </div>
+                <p class-="text-[12px]">Luas Tanah</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card -->
+        <div class="w-[363px] linear-green-bg-2 text-white rounded-md">
+          <img
+            src="./assets/images/recommendation-house-2.png"
+            alt="house1"
+            class="h-[280px] mt-2 ml-2"
+          />
+          <!-- wrapper description -->
+          <div>
+            <!-- title -->
+            <div class="p-4">
+              <p class="text-[24px] font-medium">IDR.200.000.000</p>
+              <p class="text-[14px]">Jl. Soekarno Hatta No.1</p>
+              <p class="text-[14px] text-[#FF0000]">Jual</p>
+            </div>
+            <!-- specs -->
+            <div
+              class="flex justify-between items-center mt-3 mb-12 bg-white text-black px-4"
+            >
+              <!-- room -->
+              <div>
+                <div class="flex justify-start items-center gap-2">
+                  <img src="./assets/images/icon-bed.png" alt="bed" />
+                  <p class="text-[14px] font-medium">3</p>
+                </div>
+                <p class-="text-[12px]">Kamar Tidur</p>
+              </div>
+              <!-- bathroom -->
+              <div>
+                <div class="flex justify-start items-center gap-2">
+                  <img
+                    src="./assets/images/icon-bath.png"
+                    alt="bed"
+                    class="w-[25px]"
+                  />
+                  <p class="text-[14px] font-medium">4</p>
+                </div>
+                <p class-="text-[12px]">Kamar Mandi</p>
+              </div>
+              <!-- area -->
+              <div>
+                <div class="flex justify-start items-center gap-2">
+                  <img src="./assets/images/icon-land.png" alt="bed" />
+                  <p class="text-[14px] font-medium">360m</p>
+                </div>
+                <p class-="text-[12px]">Luas Tanah</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card -->
+        <div class="w-[363px] bg-white rounded-md p-2">
+          <img
+            src="./assets/images/recommendation-house-3.png"
+            alt="house1"
+            class="h-[280px]"
+          />
+          <!-- wrapper description -->
+          <div class="p-4">
+            <!-- title -->
+            <div>
+              <p class="text-[24px] font-medium">IDR.200.000.000</p>
+              <p class="text-[14px]">Jl. Soekarno Hatta No.1</p>
+              <p class="text-[14px] text-[#048853]">Property Baru</p>
+            </div>
+            <!-- specs -->
+            <div class="flex justify-between items-center mt-8 mb-9">
+              <!-- room -->
+              <div>
+                <div class="flex justify-start items-center gap-2">
+                  <img src="./assets/images/icon-bed.png" alt="bed" />
+                  <p class="text-[14px] font-medium">3</p>
+                </div>
+                <p class-="text-[12px]">Kamar Tidur</p>
+              </div>
+              <!-- bathroom -->
+              <div>
+                <div class="flex justify-start items-center gap-2">
+                  <img
+                    src="./assets/images/icon-bath.png"
+                    alt="bed"
+                    class="w-[25px]"
+                  />
+                  <p class="text-[14px] font-medium">4</p>
+                </div>
+                <p class-="text-[12px]">Kamar Mandi</p>
+              </div>
+              <!-- area -->
+              <div>
+                <div class="flex justify-start items-center gap-2">
+                  <img src="./assets/images/icon-land.png" alt="bed" />
+                  <p class="text-[14px] font-medium">360m</p>
+                </div>
+                <p class-="text-[12px]">Luas Tanah</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- cards container 2-->
+      <div class="flex justify-center gap-7 p-2 mt-3">
+        <!-- card -->
+        <div class="w-[363px] bg-white rounded-md p-2">
+          <img
+            src="./assets/images/recommendation-house-4.png"
+            alt="house1"
+            class="h-[280px]"
+          />
+          <!-- wrapper description -->
+          <div class="p-4">
+            <!-- title -->
+            <div>
+              <p class="text-[24px] font-medium">IDR.200.000.000</p>
+              <p class="text-[14px]">Jl. Soekarno Hatta No.1</p>
+              <p class="text-[14px] text-[#FF0000]">Sewa</p>
+            </div>
+            <!-- specs -->
+            <div class="flex justify-between items-center mt-8 mb-9">
+              <!-- room -->
+              <div>
+                <div class="flex justify-start items-center gap-2">
+                  <img src="./assets/images/icon-bed.png" alt="bed" />
+                  <p class="text-[14px] font-medium">3</p>
+                </div>
+                <p class-="text-[12px]">Kamar Tidur</p>
+              </div>
+              <!-- bathroom -->
+              <div>
+                <div class="flex justify-start items-center gap-2">
+                  <img
+                    src="./assets/images/icon-bath.png"
+                    alt="bed"
+                    class="w-[25px]"
+                  />
+                  <p class="text-[14px] font-medium">4</p>
+                </div>
+                <p class-="text-[12px]">Kamar Mandi</p>
+              </div>
+              <!-- area -->
+              <div>
+                <div class="flex justify-start items-center gap-2">
+                  <img src="./assets/images/icon-land.png" alt="bed" />
+                  <p class="text-[14px] font-medium">360m</p>
+                </div>
+                <p class-="text-[12px]">Luas Tanah</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card -->
+        <div class="w-[363px] bg-white rounded-md p-2">
+          <img
+            src="./assets/images/recommendation-house-5.png"
+            alt="house1"
+            class="h-[280px]"
+          />
+          <!-- wrapper description -->
+          <div class="p-4">
+            <!-- title -->
+            <div>
+              <p class="text-[24px] font-medium">IDR.200.000.000</p>
+              <p class="text-[14px]">Jl. Soekarno Hatta No.1</p>
+              <p class="text-[14px] text-[#FF0000]">Sewa</p>
+            </div>
+            <!-- specs -->
+            <div class="flex justify-between items-center mt-8 mb-9">
+              <!-- room -->
+              <div>
+                <div class="flex justify-start items-center gap-2">
+                  <img src="./assets/images/icon-bed.png" alt="bed" />
+                  <p class="text-[14px] font-medium">3</p>
+                </div>
+                <p class-="text-[12px]">Kamar Tidur</p>
+              </div>
+              <!-- bathroom -->
+              <div>
+                <div class="flex justify-start items-center gap-2">
+                  <img
+                    src="./assets/images/icon-bath.png"
+                    alt="bed"
+                    class="w-[25px]"
+                  />
+                  <p class="text-[14px] font-medium">4</p>
+                </div>
+                <p class-="text-[12px]">Kamar Mandi</p>
+              </div>
+              <!-- area -->
+              <div>
+                <div class="flex justify-start items-center gap-2">
+                  <img src="./assets/images/icon-land.png" alt="bed" />
+                  <p class="text-[14px] font-medium">360m</p>
+                </div>
+                <p class-="text-[12px]">Luas Tanah</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card -->
+        <div class="w-[363px] bg-white rounded-md p-2">
+          <img
+            src="./assets/images/recommendation-house-6.png"
+            alt="house1"
+            class="h-[280px]"
+          />
+          <!-- wrapper description -->
+          <div class="p-4">
+            <!-- title -->
+            <div>
+              <p class="text-[24px] font-medium">IDR.200.000.000</p>
+              <p class="text-[14px]">Jl. Soekarno Hatta No.1</p>
+              <p class="text-[14px] text-[#FF0000]">Sewa</p>
+            </div>
+            <!-- specs -->
+            <div class="flex justify-between items-center mt-8 mb-9">
+              <!-- room -->
+              <div>
+                <div class="flex justify-start items-center gap-2">
+                  <img src="./assets/images/icon-bed.png" alt="bed" />
+                  <p class="text-[14px] font-medium">3</p>
+                </div>
+                <p class-="text-[12px]">Kamar Tidur</p>
+              </div>
+              <!-- bathroom -->
+              <div>
+                <div class="flex justify-start items-center gap-2">
+                  <img
+                    src="./assets/images/icon-bath.png"
+                    alt="bed"
+                    class="w-[25px]"
+                  />
+                  <p class="text-[14px] font-medium">4</p>
+                </div>
+                <p class-="text-[12px]">Kamar Mandi</p>
+              </div>
+              <!-- area -->
+              <div>
+                <div class="flex justify-start items-center gap-2">
+                  <img src="./assets/images/icon-land.png" alt="bed" />
+                  <p class="text-[14px] font-medium">360m</p>
+                </div>
+                <p class-="text-[12px]">Luas Tanah</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="text-center pt-[50px] text-[14px] font-medium">
+        Lihat Lainnya...
+      </p>
+    </section>
+
+    <!-- feature section -->
+    <section class="pt-[80px] px-[93px]">
+      <div class="flex justify-between items-center">
+        <p class="text-[48px] text-[#048853] font-medium">Fitur Rumah</p>
+        <button
+          class="flex items-center justify-center gap-2 bg-[#048853] text-white w-[238px] h-[63px]"
+        >
+          Lihat Semua..
+          <img src="./assets/images/icon-arrow-right.png" class="h-4" />
+        </button>
+      </div>
+      <!-- slider wrapper -->
+      <div
+        class="overflow-x-auto flex items-center justify-between mt-[63px] mb-[160px]"
+      >
+        <button
+          class="w-[61px] h-[61px] rounded-full bg-[#048853] absolute z-10 flex justify-center items-center"
+        >
+          <img src="./assets/images/icon-arrow-left.png" alt="arrow left" />
+        </button>
+        <!-- slider -->
+        <div class="flex gap-6 px-4 scroll-snap-x scroll-snap-mandatory">
+          <!-- card -->
+          <div
+            class="group w-[340px] h-[480px] bg-[url('/assets/images/feature-1.png')] bg-cover bg-center shrink-0 snap-start relative"
+          >
+            <!-- item -->
+            <div
+              class="opacity-0 group-hover:opacity-100 w-full h-full flex gap-[47px] flex-col justify-center items-center bg-[rgba(0,0,0,0.5)]"
+            >
+              <div class="text-white text-center">
+                <p class="text-[36px] font-medium">Kamar Tidur</p>
+                <p class="text-[14px]">Rumah minimalist Type-A2</p>
+                <p class="text-[24px] font-medium">IDR.200jt</p>
+              </div>
+              <button
+                class="flex items-center justify-center gap-2 bg-[#048853] text-white w-[150px] h-[45px]"
+              >
+                Lihat Rumah
+              </button>
+            </div>
+          </div>
+          <!-- card -->
+          <div
+            class="group w-[340px] h-[480px] bg-[url('/assets/images/feature-2.png')] bg-cover bg-center shrink-0 snap-start relative"
+          >
+            <!-- item -->
+            <div
+              class="opacity-0 group-hover:opacity-100 w-full h-full flex gap-[47px] flex-col justify-center items-center bg-[rgba(0,0,0,0.5)]"
+            >
+              <div class="text-white text-center">
+                <p class="text-[36px] font-medium">Kamar Tidur</p>
+                <p class="text-[14px]">Rumah minimalist Type-A2</p>
+                <p class="text-[24px] font-medium">IDR.200jt</p>
+              </div>
+              <button
+                class="flex items-center justify-center gap-2 bg-[#048853] text-white w-[150px] h-[45px]"
+              >
+                Lihat Rumah
+              </button>
+            </div>
+          </div>
+          <!-- card -->
+          <div
+            class="group w-[340px] h-[480px] bg-[url('/assets/images/feature-3.png')] bg-cover bg-center shrink-0 snap-start relative"
+          >
+            <!-- item -->
+            <div
+              class="opacity-0 group-hover:opacity-100 w-full h-full flex gap-[47px] flex-col justify-center items-center bg-[rgba(0,0,0,0.5)]"
+            >
+              <div class="text-white text-center">
+                <p class="text-[36px] font-medium">Kamar Tidur</p>
+                <p class="text-[14px]">Rumah minimalist Type-A2</p>
+                <p class="text-[24px] font-medium">IDR.200jt</p>
+              </div>
+              <button
+                class="flex items-center justify-center gap-2 bg-[#048853] text-white w-[150px] h-[45px]"
+              >
+                Lihat Rumah
+              </button>
+            </div>
+          </div>
+          <!-- card -->
+          <div
+            class="group w-[340px] h-[480px] bg-[url('/assets/images/feature-4.png')] bg-cover bg-center shrink-0 snap-start relative"
+          >
+            <!-- item -->
+            <div
+              class="opacity-0 group-hover:opacity-100 w-full h-full flex gap-[47px] flex-col justify-center items-center bg-[rgba(0,0,0,0.5)]"
+            >
+              <div class="text-white text-center">
+                <p class="text-[36px] font-medium">Kamar Tidur</p>
+                <p class="text-[14px]">Rumah minimalist Type-A2</p>
+                <p class="text-[24px] font-medium">IDR.200jt</p>
+              </div>
+              <button
+                class="flex items-center justify-center gap-2 bg-[#048853] text-white w-[150px] h-[45px]"
+              >
+                Lihat Rumah
+              </button>
+            </div>
+          </div>
+          <!-- card -->
+          <div
+            class="group w-[340px] h-[480px] bg-[url('/assets/images/feature-5.png')] bg-cover bg-center shrink-0 snap-start relative"
+          >
+            <!-- item -->
+            <div
+              class="opacity-0 group-hover:opacity-100 w-full h-full flex gap-[47px] flex-col justify-center items-center bg-[rgba(0,0,0,0.5)]"
+            >
+              <div class="text-white text-center">
+                <p class="text-[36px] font-medium">Kamar Tidur</p>
+                <p class="text-[14px]">Rumah minimalist Type-A2</p>
+                <p class="text-[24px] font-medium">IDR.200jt</p>
+              </div>
+              <button
+                class="flex items-center justify-center gap-2 bg-[#048853] text-white w-[150px] h-[45px]"
+              >
+                Lihat Rumah
+              </button>
+            </div>
+          </div>
+        </div>
+        <button
+          class="w-[61px] h-[61px] rounded-full bg-[#048853] absolute z-10 flex justify-center items-center right-20"
+        >
+          <img src="./assets/images/icon-arrow-right.png" alt="arrow right" />
+        </button>
+      </div>
+    </section>
+    <!-- cta section -->
+    <section
+      class="h-[737px] bg-[url('/assets/images/cta-bg.png')] bg-cover bg-center"
+    >
+      <div class="h-full bg-[rgba(0,0,0,0.5)]">
+        <!-- content -->
+        <div
+          class="h-full px-[93px] flex text-white items-center justify-between"
+        >
+          <div>
+            <p class="text-[40px] font-medium w-[500px]">
+              Butuh Konsultasi..? Silahkan kontak kami Kami Siap Membantu
+            </p>
+            <p class="text-[18px] font-medium my-5">Kontak</p>
+            <div class="flex gap-4 items-center mb-5">
+              <img
+                src="./assets/images/contact-map.png"
+                class="w-[24px]"
+                alt="map"
+              />
+              <p>Jl. Pelajar Pejuang 123 Majalaya Bandung Indonesia</p>
+            </div>
+            <div class="flex gap-4 items-center mb-5">
+              <img
+                src="./assets/images/contact-phone.png"
+                class="w-[24px]"
+                alt="phone"
+              />
+              <p>022-6545-2041</p>
+            </div>
+            <div class="flex gap-4 items-center mb-5">
+              <img
+                src="./assets/images/contact-mail.png"
+                class="w-[24px]"
+                alt="mail"
+              />
+              <p>rumahimpian@gmail.com</p>
+            </div>
+
+            <p class="text-[18px] font-medium mb-3">Social Media</p>
+            <div class="flex gap-4 items-center">
+              <img src="./assets/images/social-fb.png" alt="map" />
+              <img src="./assets/images/social-twitter.png" alt="map" />
+              <img src="./assets/images/social-ig.png" alt="map" />
+              <p>Rumahimpian</p>
+            </div>
+          </div>
+          <!-- form -->
+          <div class="w-[580px] h-[445px] bg-white pt-[52px] px-[48px]">
+            <p class="text-[40px] text-[#048853] text-center font-medium">
+              ada pertanyaan..?
+            </p>
+            <form action="" class="mt-[21px]">
+              <input
+                type="text"
+                name="email"
+                id="email"
+                placeholder="Masukan email anda disini..."
+                class="w-full h-[75px] bg-[#C4C4C4] mb-4 pl-[35px] placeholder-[#717171]"
+              />
+              <br />
+              <input
+                type="text"
+                name="question"
+                id="question"
+                placeholder="Pertanyaan Anda.."
+                class="w-full h-[75px] bg-[#C4C4C4] mb-4 pl-[35px] placeholder-[#717171]"
+              />
+              <button class="w-full h-[75px] bg-[#048853] text-white">
+                Kirim
+              </button>
+            </form>
           </div>
         </div>
       </div>
